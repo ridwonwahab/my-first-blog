@@ -10,5 +10,5 @@ urlpatterns = [
     path('shop_listing/', views.shopListing, name='listing'),
 
 
-    path('home/', views.shout_out)
+    path('home/', views.home)
 ]
