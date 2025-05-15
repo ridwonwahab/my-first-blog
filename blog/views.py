@@ -18,6 +18,6 @@ def shopListing(request):
     return render(request, 'blog/shop-listing.html', {})
 
 
-def shout_out(request):
-    return HttpResponse('Shout out to Hiit students')
+def home(request):
+    return HttpResponse('Shout out to all Hiit students. Most especially, Mal. AL-MUBARAK')
 
