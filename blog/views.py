@@ -18,6 +18,6 @@ def shopListing(request):
     return render(request, 'blog/shop-listing.html', {})
 
 
-def home(request):
+def shout_out(request):
     return HttpResponse('Shout out to Hiit students')
 
